@@ -1,0 +1,95 @@
+*{
+    font-family: "Playfair Display", serif;
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+   text-decoration: none;
+   
+}
+h2{
+    text-align: center;
+    line-height: 2.9;
+    font-size: 25px;
+}
+.edit {
+    width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 12px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper{
+    
+
+    padding: 6px;
+     border-radius: 10px;
+    /* padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000; */
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #FFDEE9;
+
+
+
+    
+
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+
+form .section1 input, .section2 input {
+    width: 200px;
+    border: 1px solid rgb(9, 9, 9);
+    outline:  none;
+    border-radius: 5px;
+    font-size:  15px;
+    padding:  7px;
+    margin-top: 6px;
+}
+
+.text {
+    width: 200px;
+}
+form .submit input {
+    font-size: 18px;
+    background-color: 	#E0FFFF;
+    border-radius: 10px;
+    padding: 6px 15px;
+    margin-bottom:  20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+form .sumbit input:hover {
+    background: #fbd0d9;
+    color: white;
+}
+.one, .two, .three, .four, .five{
+    width: 90px;
+    height: 170px;
+    float: right;
+    margin-top: -115px;
+    margin-right: -20px;
+}
+.chisobmi {
+    text-align: center;
+    color: #000000;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+}
+
